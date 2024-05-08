@@ -1,13 +1,18 @@
 const form = document.querySelector("[data-form]");
 const result = document.querySelector("[data-result]");
+
+//grab div to be opened for critical error
 const newWindow = document.getElementById("critical-error")
+
+//variable to store division result
 let answer = 0;
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const entries = new FormData(event.target);
   const { dividend, divider } = Object.fromEntries(entries);
-  console.log( dividend)
-  console.log( divider)
+  // console.log( dividend)
+  // console.log( divider)
   
   if(!(dividend === '' || divider==='')){
 
