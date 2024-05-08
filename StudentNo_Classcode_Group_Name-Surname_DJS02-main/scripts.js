@@ -12,7 +12,7 @@ form.addEventListener("submit", (event) => {
   const entries = new FormData(event.target);
   const { dividend, divider } = Object.fromEntries(entries);
   // console.log( dividend)
-  // console.log( divider)
+  
   
   if(!(dividend === '' || divider==='')){
 
