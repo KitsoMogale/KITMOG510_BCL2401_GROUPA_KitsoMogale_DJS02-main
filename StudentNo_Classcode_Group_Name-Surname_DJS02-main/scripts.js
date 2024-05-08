@@ -4,7 +4,7 @@ const result = document.querySelector("[data-result]");
 //grab div to be opened for critical error
 const newWindow = document.getElementById("critical-error")
 
-//variable to store division result
+//variable to store division result in 
 let answer = 0;
 
 form.addEventListener("submit", (event) => {
